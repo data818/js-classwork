@@ -4,10 +4,10 @@ let birth = 1999;
 let currentYear = 2025;
 
 let age = currentYear - birth;
-console.log("ჩემი ასაკია" + age + "წელი");
+console.log(currentYear - birth);
 
 // prompt/ფასდაკლებები
-let yourAge = prompt("Enter your age");
+let yourAge = Number(prompt("Enter your age"));
 let movieType = prompt("Enter movie type(regular or 3D)");
 let timeOfDay = prompt("Enter time of day(matinee or evening)");
 
